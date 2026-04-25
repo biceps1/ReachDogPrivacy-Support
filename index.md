@@ -5,7 +5,7 @@ title: Privacy & Support
 
 # Privacy Policy
 
-**Last Updated:** April 24, 2026
+**Last Updated:** April 25, 2026
 
 ## Introduction
 
@@ -79,13 +79,32 @@ Because your leads never leave your device, the attack surface is minimal by des
 
 ReachDog is designed for business professionals. It does not knowingly collect information from children under 13.
 
-## Data Deletion
+## Account Deletion
 
-You can remove your data at any time by:
+You can delete your ReachDog account and all associated data at any time, directly from inside the app — no email, phone call, or website visit required.
 
-- Deleting ReachDog from your iPhone — all local data is removed immediately
-- Signing out from Settings
-- Emailing us to remove your authentication record
+**How to delete your account:**
+
+1. Open the app and tap the **Settings** tab.
+2. Scroll to the bottom and tap **Delete Account**.
+3. Review the on-screen summary of the data that will be removed.
+4. Type **DELETE** in the confirmation field to enable the destructive button.
+5. Tap **Delete My Account**.
+
+**What happens when you confirm:**
+
+- **Sign in with Apple users:** ReachDog calls Apple's `/auth/revoke` endpoint with your stored refresh token, permanently revoking ReachDog's authorization on your Apple ID. ReachDog will no longer appear under *Settings → Apple ID → Sign in with Apple → Apps Using Apple ID*.
+- **Sign in with Google users:** ReachDog calls Google's revocation endpoint, removing ReachDog from the apps connected to your Google account.
+- **All on-device data is permanently deleted:** leads, notes, generated email drafts, business card images, templates, tags, profile, and preferences.
+- **iOS Keychain and app preferences are wiped.**
+- You are returned to the onboarding screen and can sign in fresh as a new user at any time.
+
+The action is **immediate and cannot be undone.**
+
+## Other Ways to Remove Data
+
+- Deleting ReachDog from your iPhone removes all local data immediately.
+- Signing out from Settings ends your session but does not delete your data — use **Delete Account** above for full removal.
 
 ## Your Rights
 
@@ -147,7 +166,7 @@ Swipe left on any row in the Leads tab and tap **Delete**.
 
 ### How do I delete my account?
 
-Email us from the address you signed in with. We'll remove your authentication record within 2 business days. Your leads are on your device — delete the app to remove them.
+Open **Settings → Delete Account** (red button at the bottom of the Settings tab), type **DELETE** to confirm, and tap **Delete My Account**. ReachDog immediately revokes its authorization on your Apple or Google account and erases all of your on-device data — leads, notes, drafts, card images, templates, tags, profile, and preferences. The action is immediate and cannot be undone.
 
 ### Which iPhones are supported?
 

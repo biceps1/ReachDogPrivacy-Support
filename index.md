@@ -166,7 +166,7 @@ Open any lead, tap **Generate Follow-Up**, choose a tone and length, and ReachDo
 
 ### Can I change the email app that opens?
 
-Yes. **Settings → Email** lets you pick your default.
+Yes. **Settings → Email** lets you pick your default — Apple Mail, Gmail, Outlook, or Messages. If your chosen app isn't installed, ReachDog will offer to take you to the App Store to install it.
 
 ### How do I delete a lead?
 

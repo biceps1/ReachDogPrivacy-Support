@@ -5,11 +5,11 @@ title: Privacy & Support
 
 # Privacy Policy
 
-**Last Updated:** April 25, 2026
+**Last Updated:** May 13, 2026
 
 ## Introduction
 
-ReachDog for iOS respects your privacy. This Privacy Policy explains how information is handled when you use ReachDog on your iPhone or iPad.
+ReachDog for iOS respects your privacy. This Privacy Policy explains how information is handled when you use ReachDog on your iPhone.
 
 ✓ Your business cards, leads, and notes stay on your device. We do not sell, rent, or share your data.
 
@@ -31,15 +31,16 @@ When you sign in with **Apple** or **Google**, we receive a minimal profile — 
 
 ## Local Data Storage
 
-All your leads, business card photos, notes, tags, templates, and generated email drafts are stored locally on your iPhone using Apple's secure on-device storage.
+All your leads, business card photos, notes, tags, events, custom statuses, templates, and generated email drafts are stored locally on your iPhone using Apple's secure on-device storage.
 
 This includes:
 
 - Lead contact details (name, company, email, phone, title, address)
 - Business card photos you scan or upload
-- Your notes, tags, and follow-up status
+- Your notes, tags, events, and follow-up status
 - AI-generated email drafts and saved templates
 - App preferences
+- Recently Deleted leads (kept on your device for up to 30 days so you can restore them, then permanently removed)
 
 This data never leaves your device and is not accessible to us or any third parties.
 
@@ -49,11 +50,18 @@ ReachDog performs **OCR (text recognition)** on business card images using Apple
 
 ## AI Email Drafts
 
-When you ask ReachDog to generate a follow-up email, we send only the minimum text context needed to produce the draft — for example, the lead's name, company, job title, and your tone selection.
+When you ask ReachDog to generate a follow-up email, the draft is produced from a small amount of context — the lead's name, company, job title, your tone selection, and your own notes about the lead.
+
+On supported iPhones, this happens **entirely on your device** using Apple Intelligence — nothing leaves your iPhone for that draft.
+
+On iPhones that do not support on-device Apple Intelligence, the same minimal context is sent over a secure HTTPS connection to a private service we operate solely to generate your draft, and the response is returned to your iPhone.
+
+In both cases:
 
 - We do not send the business card image
 - We do not send your email address or your other leads
-- The text is processed in real time and is not retained or used to train AI models
+- Drafts and prompts are not retained on our side and are not used to train AI models
+- You can edit the draft freely before sending
 
 If you prefer not to use AI features, simply don't tap "Generate Follow-Up". The rest of the app works normally.
 
@@ -162,7 +170,12 @@ Yes. **Settings → Email** lets you pick your default.
 
 ### How do I delete a lead?
 
-Swipe left on any row in the Leads tab and tap **Delete**.
+You have two ways:
+
+- **From the Leads list:** swipe left on the lead and tap **Delete**.
+- **From the lead's profile:** open the lead and tap the **trash** icon at the top-right, then confirm.
+
+Either way, the lead moves to **Recently Deleted** (Settings → Recently Deleted) where it stays for up to 30 days so you can restore it. After 30 days it is permanently removed from your iPhone.
 
 ### How do I delete my account?
 
@@ -170,7 +183,7 @@ Open **Settings → Delete Account** (red button at the bottom of the Settings t
 
 ### Which iPhones are supported?
 
-ReachDog supports iPhones running iOS 17 or newer. iPhones on iOS 26+ get an upgraded OCR engine for even better recognition.
+ReachDog is iPhone-only and supports iPhones running iOS 17 or newer. iPhones on iOS 26+ get an upgraded OCR engine for even better recognition. Recent iPhones that support Apple Intelligence also generate AI follow-up emails fully on-device.
 
 ### Do you collect analytics or track me?
 
